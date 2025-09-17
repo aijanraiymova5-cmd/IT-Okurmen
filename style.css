@@ -1,0 +1,128 @@
+.container{
+    width: 1920px;
+/*    
+    top: 4614px; */
+       left: 310px;
+      display: flex;
+    justify-content: center;
+    
+} 
+
+
+.container p{
+    font-size: 80px;
+    font-weight: 700;
+}
+/* .wrapper{
+    position: relative;
+    width: 1920px;
+    height: 832px;
+    border: 2px solid black;
+} */
+.item {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 302px; 
+      height: 310px;  
+    /* top: 5086px;  */
+    left: 1308px;
+}
+.item img{
+    width: 312px;
+    height: 326px;  
+    /* top: 5069px; */
+    left: 300px;
+}
+
+.card8{
+     position: relative;
+    bottom: 420px;
+    left: 1070px;
+   
+}
+.item01{
+position: absolute;
+left: 700px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.container1{
+    /* width: 1920px; */
+     height: 832px; 
+    top: 200px; 
+       left: 310px;
+      display: flex;
+    justify-content: center;
+    position: relative;
+    
+} 
+
+.item1{
+    /* position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+.item1 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #13171D;
+
+}
+
+.ak{
+  position: relative;
+  right: 810px;
+    
+}
+.ak1{
+ position: relative;
+    top: 95px;
+    right: 30px;
+
+}
+.ak3{
+    position: relative;
+    right: 1000px;
+    top: 190px;
+}
+
+.ak3 p{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #646464;
+}
+.bol{
+  position: relative;
+    top: 445px;
+    right: 880px;
+}
+
+.bol2{
+    position: relative;
+    top: 250px;
+    right: 600px;
+}
+
+.bol3{
+position: relative;
+    top: 750px;
+    right: 950px;
+}
+
+.image{
+    width: 73px;
+    height: 73px;
+ position: absolute;
+    top: 690px;
+    right: 800px;
+}
+
