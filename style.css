@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.container{
+.container-4{
     width: 1920px;
 /*    
     top: 4614px; */
@@ -127,8 +126,6 @@ position: relative;
     right: 800px;
 }
 
-=======
->>>>>>> 9b6f022f2723ab64a996baea5ed231d7ca6d966a
 * {
   margin: 0;
   padding: 0;
@@ -247,8 +244,5 @@ body {
 .feature h3 {
   font-size: 18px;
   margin-bottom: 10px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9b6f022f2723ab64a996baea5ed231d7ca6d966a
+
