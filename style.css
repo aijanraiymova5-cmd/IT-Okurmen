@@ -1,4 +1,4 @@
-.container{
+.container-4{
     width: 1920px;
 /*    
     top: 4614px; */
@@ -62,10 +62,10 @@ div {
 } 
 
 .item1{
-    /* position: absolute;
+     position: absolute;
     display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center; 
 
 }
 .item1 p{
@@ -124,5 +124,125 @@ position: relative;
  position: absolute;
     top: 690px;
     right: 800px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #222;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e63946;
+}
+.logo span {
+  color: #1d3557;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.phones a {
+  margin-left: 15px;
+  color: #1d3557;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 45%;
+}
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+
+.hero-image {
+  position: relative;
+}
+.hero-image img {
+  width: 400px;
+  border-radius: 15px;
+}
+.discount-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.discount-box h2 {
+  font-size: 32px;
+  color: #e63946;
+}
+.discount-box span {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background: #f8f9fa;
+}
+.feature {
+  text-align: center;
+  max-width: 200px;
+}
+.feature img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+.feature h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
